@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.modal-wrapper {
+  background-color: #fff;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 4rem auto;
+  max-width: 800px;
+  transition: all 0.4s ease;
+  width: 80%;
+}
+.modalImg {
+  background: #000;
+  background-image: url("./../../img/coffee.jpg");
+  background-position: center center;
+  background-size: cover;
+  border-radius: 10px 0 0 10px;
+  height: 100%;
+  width: 100%;
+}
+.modal-header {
+  align-items: center;
+  background-color: rgb(6, 5, 3);
+  color: #e9e9e9;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+.modal-header span {
+  cursor: pointer;
+  font-size: 1.5rem;
+  transition: transform ease 0.3s;
+}
+.modal-header span:hover {
+  color: rgb(196, 172, 159);
+  transform: rotate(90deg);
+}
+.modal-content {
+  padding: 1.5rem 1rem;
+}
+.modal-body {
+  margin-bottom: 3rem;
+}
+.modal-body h4 {
+  color: rgb(6, 5, 3);
+  font-size: 1.8rem;
+  margin: 3rem 0;
+  text-align: center;
+}
+.modal-body p {
+  color: rgb(6, 5, 3);
+  font-size: 1.1rem;
+  margin: 0.5rem 0 0.5rem 3rem;
+}
+.modal-footer {
+  align-content: space-between;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.modal-footer button {
+  background-color: rgb(6, 5, 3);
+  border: none;
+  border-radius: 10px;
+  color: #e3e3e3;
+  cursor: pointer;
+  display: block;
+  font-size: 0.8rem;
+  margin: 10px auto;
+  outline: none;
+  padding: 0.7rem 1rem;
+  transition: ease 0.3s;
+  width: 45%;
+}
+.modal-footer button:hover {
+  background-color: rgb(43, 26, 23);
+  color: rgb(196, 172, 159);
+}

@@ -8,10 +8,3 @@
   outline: none;
   cursor: pointer;
 }
-.back-drop {
-  background: rgba(63, 61, 61, 0.692);
-  height: 100%;
-  position: fixed;
-  transition: all 1.3s;
-  width: 100%;
-}
